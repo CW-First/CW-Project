@@ -8,6 +8,8 @@ Widget::Widget(QWidget *parent) :
     ui->setupUi(this);
 
     ui->textEdit->append("welcome github!");
+
+    ui->textEdit->append("end GitHub");
 }
 
 Widget::~Widget()
