@@ -36,5 +36,11 @@ void Widget::on_btn_show_clicked()
             ui->textEdit->append("buzz");
             return;
         }
+
+        if (0 == num % 7)
+        {
+            ui->textEdit->append("GitHub");
+            return;
+        }
     }
 }
